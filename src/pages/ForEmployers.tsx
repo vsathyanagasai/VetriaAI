@@ -70,7 +70,7 @@ const ForEmployers = () => {
               className="text-4xl md:text-5xl font-bold text-gray-900 mb-6"
               style={{ fontFamily: 'Poppins' }}
             >
-              For <span className="text-red-800">Employers</span>
+              Smarter Hiring for <span className="text-red-800">Real-World Urgency</span>
             </h1>
             <p 
               className="text-xl text-gray-600 max-w-3xl mx-auto mb-8"
@@ -329,6 +329,76 @@ const ForEmployers = () => {
         </div>
       </section>
 
+      {/* Built for Urgent Hiring */}
+      <section className="py-20 bg-red-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 
+              className="text-3xl md:text-4xl font-bold text-gray-900 mb-4"
+              style={{ fontFamily: 'Poppins' }}
+            >
+              Built for Urgent Hiring
+            </h2>
+            <p 
+              className="text-xl text-gray-600 max-w-2xl mx-auto"
+              style={{ fontFamily: 'Inter' }}
+            >
+              When time matters most, VetriaAI accelerates the pipeline
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="text-center">
+              <div className="bg-red-100 p-6 rounded-full w-20 h-20 mx-auto mb-6 flex items-center justify-center">
+                <Clock className="h-10 w-10 text-red-800" />
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4" style={{ fontFamily: 'Poppins' }}>
+                Same-Day Candidate Shortlisting
+              </h3>
+              <p className="text-gray-600" style={{ fontFamily: 'Inter' }}>
+                Get qualified candidates within hours, not days or weeks
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="bg-red-100 p-6 rounded-full w-20 h-20 mx-auto mb-6 flex items-center justify-center">
+                <Target className="h-10 w-10 text-red-800" />
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4" style={{ fontFamily: 'Poppins' }}>
+                AI-Matched Profiles Based on Job Urgency
+              </h3>
+              <p className="text-gray-600" style={{ fontFamily: 'Inter' }}>
+                Prioritized matching algorithm considers urgency and role-fit
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="bg-red-100 p-6 rounded-full w-20 h-20 mx-auto mb-6 flex items-center justify-center">
+                <Shield className="h-10 w-10 text-red-800" />
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4" style={{ fontFamily: 'Poppins' }}>
+                Skip Screening Steps
+              </h3>
+              <p className="text-gray-600" style={{ fontFamily: 'Inter' }}>
+                Work with skill-verified profiles, eliminating basic screening rounds
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="bg-red-100 p-6 rounded-full w-20 h-20 mx-auto mb-6 flex items-center justify-center">
+                <Users className="h-10 w-10 text-red-800" />
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4" style={{ fontFamily: 'Poppins' }}>
+                Real-Time Availability Filters
+              </h3>
+              <p className="text-gray-600" style={{ fontFamily: 'Inter' }}>
+                Filter candidates by immediate availability and start dates
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Candidate Discovery */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -343,7 +413,7 @@ const ForEmployers = () => {
               className="text-xl text-gray-600 max-w-2xl mx-auto"
               style={{ fontFamily: 'Inter' }}
             >
-              Our badge system ensures you only see top-tier candidates
+              Our badge system ensures you only see top-tier candidates. Filter candidates not just by skill, but by JD alignment and availability-to-join timelines — powered by urgency-aware AI.
             </p>
           </div>
 

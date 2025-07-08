@@ -9,7 +9,8 @@ import {
   Shield, 
   BarChart3,
   ArrowRight,
-  CheckCircle
+  CheckCircle,
+  FileText
 } from 'lucide-react';
 
 const Home = () => {
@@ -25,14 +26,13 @@ const Home = () => {
               style={{ fontFamily: 'Poppins' }}
             >
               AI-Powered Hiring,{' '}
-              <span className="text-red-800">Simplified</span>
+              <span className="text-red-800">Built for Speed and Precision</span>
             </h1>
             <p 
               className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto"
               style={{ fontFamily: 'Inter' }}
             >
-              VetriaAI automates resume screening, validates skillsets, and connects 
-              top talent with employers — in minutes, not weeks.
+              Close the gap between fragmented JDs and real talent. VetriaAI automates resume screening, validates skills, and delivers verified candidates — in minutes, not weeks.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
@@ -55,6 +55,73 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Closing the Real Hiring Gap */}
+      <section className="py-20 bg-red-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 
+              className="text-3xl md:text-4xl font-bold text-gray-900 mb-4"
+              style={{ fontFamily: 'Poppins' }}
+            >
+              The Real Hiring Gap Is Widening — We're Closing It
+            </h2>
+            <p 
+              className="text-xl text-gray-600 max-w-4xl mx-auto mb-8"
+              style={{ fontFamily: 'Inter' }}
+            >
+              Today's hiring fails because job descriptions rarely reflect actual skill needs, and resumes exaggerate abilities. VetriaAI fixes this with:
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+            <div className="text-center group">
+              <div className="bg-red-100 p-6 rounded-full w-24 h-24 mx-auto mb-6 flex items-center justify-center group-hover:bg-red-200 transition-colors duration-200">
+                <Bot className="h-12 w-12 text-red-800" />
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4" style={{ fontFamily: 'Poppins' }}>
+                AI-Powered JD Fragmentation Analysis
+              </h3>
+              <p className="text-gray-600" style={{ fontFamily: 'Inter' }}>
+                Intelligent analysis of job descriptions to identify gaps and misalignments with real skill requirements.
+              </p>
+            </div>
+
+            <div className="text-center group">
+              <div className="bg-red-100 p-6 rounded-full w-24 h-24 mx-auto mb-6 flex items-center justify-center group-hover:bg-red-200 transition-colors duration-200">
+                <Target className="h-12 w-12 text-red-800" />
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4" style={{ fontFamily: 'Poppins' }}>
+                JD-to-Skill Mapping & Role-Fit Testing
+              </h3>
+              <p className="text-gray-600" style={{ fontFamily: 'Inter' }}>
+                Precise mapping of job requirements to actual skills with targeted testing for role fitness.
+              </p>
+            </div>
+
+            <div className="text-center group">
+              <div className="bg-red-100 p-6 rounded-full w-24 h-24 mx-auto mb-6 flex items-center justify-center group-hover:bg-red-200 transition-colors duration-200">
+                <Zap className="h-12 w-12 text-red-800" />
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4" style={{ fontFamily: 'Poppins' }}>
+                Urgency-Aware Shortlisting
+              </h3>
+              <p className="text-gray-600" style={{ fontFamily: 'Inter' }}>
+                Smart prioritization based on hiring urgency, candidate availability, and verified skill match.
+              </p>
+            </div>
+          </div>
+
+          <div className="text-center">
+            <p 
+              className="text-xl font-semibold text-gray-900"
+              style={{ fontFamily: 'Poppins' }}
+            >
+              No guesswork. Just verified talent matched to the real needs of your role — fast.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* The Problem We Solve */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -73,7 +140,7 @@ const Home = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center group">
               <div className="bg-red-50 p-6 rounded-full w-24 h-24 mx-auto mb-6 flex items-center justify-center group-hover:bg-red-100 transition-colors duration-200">
                 <Clock className="h-12 w-12 text-red-800" />
@@ -109,6 +176,18 @@ const Home = () => {
                 Unqualified candidates waste valuable interview time, slowing down the entire hiring process.
               </p>
             </div>
+
+            <div className="text-center group">
+              <div className="bg-red-50 p-6 rounded-full w-24 h-24 mx-auto mb-6 flex items-center justify-center group-hover:bg-red-100 transition-colors duration-200">
+                <FileText className="h-12 w-12 text-red-800" />
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4" style={{ fontFamily: 'Poppins' }}>
+                Fragmented JDs
+              </h3>
+              <p className="text-gray-600" style={{ fontFamily: 'Inter' }}>
+                Job descriptions often don't align with real-world expectations. VetriaAI analyzes and restructures JDs to match actual skill needs before screening.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -131,7 +210,7 @@ const Home = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
             <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200">
               <div className="bg-red-100 p-3 rounded-lg w-fit mb-4">
                 <Bot className="h-8 w-8 text-red-800" />
@@ -177,6 +256,18 @@ const Home = () => {
               </h3>
               <p className="text-gray-600" style={{ fontFamily: 'Inter' }}>
                 Comprehensive insights and metrics to optimize your recruitment strategy.
+              </p>
+            </div>
+
+            <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200">
+              <div className="bg-red-100 p-3 rounded-lg w-fit mb-4">
+                <FileText className="h-8 w-8 text-red-800" />
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2" style={{ fontFamily: 'Poppins' }}>
+                JD Optimizer
+              </h3>
+              <p className="text-gray-600" style={{ fontFamily: 'Inter' }}>
+                AI scans job descriptions, detects gaps or ambiguity, and auto-suggests skill-focused rewrites for better targeting.
               </p>
             </div>
           </div>
@@ -338,6 +429,37 @@ const Home = () => {
                       Partner companies
                     </p>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonial */}
+      <section className="py-20 bg-red-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-4xl mx-auto text-center">
+            <div className="bg-white p-8 md:p-12 rounded-2xl shadow-lg">
+              <div className="mb-8">
+                <div className="flex justify-center mb-6">
+                  {[1, 2, 3, 4, 5].map((star) => (
+                    <span key={star} className="text-yellow-400 text-2xl">★</span>
+                  ))}
+                </div>
+                <blockquote 
+                  className="text-xl md:text-2xl text-gray-700 mb-8 italic"
+                  style={{ fontFamily: 'Inter' }}
+                >
+                  "We needed 3 engineers in 72 hours. VetriaAI delivered 5 pre-tested, interview-ready candidates in 36 hours. We hired 3 — all performing brilliantly."
+                </blockquote>
+                <div className="border-t border-gray-200 pt-6">
+                  <cite 
+                    className="text-lg font-semibold text-gray-900 not-italic"
+                    style={{ fontFamily: 'Poppins' }}
+                  >
+                    — Talent Acquisition Lead, Series A Startup
+                  </cite>
                 </div>
               </div>
             </div>

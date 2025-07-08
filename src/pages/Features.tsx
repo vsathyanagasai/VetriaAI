@@ -26,6 +26,17 @@ const Features = () => {
       ]
     },
     {
+      icon: Target,
+      title: "JD Optimizer",
+      description: "AI-powered parsing and restructuring of job descriptions to ensure role clarity",
+      benefits: [
+        "Fragmentation detection and fix suggestions",
+        "Role-skill mapping for test generation",
+        "Dynamic job-title realignment for visibility",
+        "Auto-suggests skill-focused rewrites for better targeting"
+      ]
+    },
+    {
       icon: Shield,
       title: "Skillset Validation",
       description: "Comprehensive skill assessment through adaptive testing",
@@ -246,6 +257,12 @@ const Features = () => {
                 <div className="flex items-center space-x-3">
                   <CheckCircle className="h-5 w-5 text-green-600" />
                   <span className="text-gray-700" style={{ fontFamily: 'Inter' }}>
+                    JD clarity enhancement before shortlisting begins
+                  </span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <CheckCircle className="h-5 w-5 text-green-600" />
+                  <span className="text-gray-700" style={{ fontFamily: 'Inter' }}>
                     AI resume parsing (seconds per role)
                   </span>
                 </div>
@@ -253,6 +270,12 @@ const Features = () => {
                   <CheckCircle className="h-5 w-5 text-green-600" />
                   <span className="text-gray-700" style={{ fontFamily: 'Inter' }}>
                     Dynamic, role-specific testing
+                  </span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <CheckCircle className="h-5 w-5 text-green-600" />
+                  <span className="text-gray-700" style={{ fontFamily: 'Inter' }}>
+                    Urgent hiring filters enabled — match based on availability, skill, and role
                   </span>
                 </div>
                 <div className="flex items-center space-x-3">

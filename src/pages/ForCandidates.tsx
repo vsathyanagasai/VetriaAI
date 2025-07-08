@@ -353,6 +353,43 @@ const ForCandidates = () => {
         </div>
       </section>
 
+      {/* Get Matched CTA */}
+      <section className="py-20 bg-blue-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <h2 
+              className="text-3xl md:text-4xl font-bold text-gray-900 mb-6"
+              style={{ fontFamily: 'Poppins' }}
+            >
+              Get Matched With Jobs That Actually Fit You
+            </h2>
+            <p 
+              className="text-xl text-gray-600 max-w-3xl mx-auto mb-8"
+              style={{ fontFamily: 'Inter' }}
+            >
+              No more one-size-fits-all listings. Our AI breaks down each JD and maps it to your badge-proven skills.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link
+                to="/contact"
+                className="bg-red-800 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-red-900 transition-all duration-200"
+                style={{ fontFamily: 'Inter' }}
+              >
+                Start Building Profile
+              </Link>
+              <Link
+                to="/how-it-works"
+                className="border border-red-800 text-red-800 px-8 py-3 rounded-lg text-lg font-semibold hover:bg-red-50 transition-all duration-200 flex items-center justify-center space-x-2"
+                style={{ fontFamily: 'Inter' }}
+              >
+                <span>Learn How It Works</span>
+                <ArrowRight className="h-5 w-5" />
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

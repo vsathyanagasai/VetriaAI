@@ -122,9 +122,7 @@ const About = () => {
                 className="text-lg text-gray-600 mb-6"
                 style={{ fontFamily: 'Inter' }}
               >
-                We believe that talent exists everywhere, but opportunity doesn't. 
-                Traditional hiring processes are slow, biased, and ineffective at 
-                identifying the best candidates.
+                Traditional hiring doesn't just miss talent — it delays business. We envision a world where every company can fill urgent roles with precision, and every candidate is judged by what they can do, not how well they write a resume.
               </p>
               <p 
                 className="text-lg text-gray-600 mb-8"

@@ -6,16 +6,17 @@ import {
   Calendar, 
   Trophy, 
   ArrowRight,
-  CheckCircle
+  CheckCircle,
+  Target
 } from 'lucide-react';
 
 const HowItWorks = () => {
   const steps = [
     {
       icon: FileText,
-      title: "Resume Upload",
-      description: "Candidates upload their resumes or employers post job requirements",
-      details: "AI instantly parses and extracts key information from resumes"
+      title: "Resume/JD Upload",
+      description: "Employers post job descriptions and candidates upload resumes. AI parses resumes and breaks down JDs into role-specific skills",
+      details: "JD fragmentation is analyzed and optimized before screening starts"
     },
     {
       icon: Bot,
@@ -138,6 +139,64 @@ const HowItWorks = () => {
         </div>
       </section>
 
+      {/* JD Fragmentation Flow */}
+      <section className="py-20 bg-red-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 
+              className="text-3xl md:text-4xl font-bold text-gray-900 mb-4"
+              style={{ fontFamily: 'Poppins' }}
+            >
+              JD Fragmentation → Skill Mapping → Matching Engine
+            </h2>
+            <p 
+              className="text-xl text-gray-600 max-w-3xl mx-auto"
+              style={{ fontFamily: 'Inter' }}
+            >
+              Our AI transforms vague job descriptions into precise skill requirements for accurate candidate matching
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="bg-white p-8 rounded-xl shadow-sm">
+              <div className="bg-red-100 p-4 rounded-full w-16 h-16 mx-auto mb-6 flex items-center justify-center">
+                <FileText className="h-8 w-8 text-red-800" />
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4 text-center" style={{ fontFamily: 'Poppins' }}>
+                JD Fragmentation Analysis
+              </h3>
+              <p className="text-gray-600 text-center" style={{ fontFamily: 'Inter' }}>
+                AI analyzes the job description to identify fragmented or vague sections that don't align with real-world skill requirements
+              </p>
+            </div>
+
+            <div className="bg-white p-8 rounded-xl shadow-sm">
+              <div className="bg-red-100 p-4 rounded-full w-16 h-16 mx-auto mb-6 flex items-center justify-center">
+                <Target className="h-8 w-8 text-red-800" />
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4 text-center" style={{ fontFamily: 'Poppins' }}>
+                Skill Ontology Mapping
+              </h3>
+              <p className="text-gray-600 text-center" style={{ fontFamily: 'Inter' }}>
+                Mapped to our comprehensive skill ontology across 50+ domains, creating precise skill tags for assessment
+              </p>
+            </div>
+
+            <div className="bg-white p-8 rounded-xl shadow-sm">
+              <div className="bg-red-100 p-4 rounded-full w-16 h-16 mx-auto mb-6 flex items-center justify-center">
+                <Bot className="h-8 w-8 text-red-800" />
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4 text-center" style={{ fontFamily: 'Poppins' }}>
+                Intelligent Matching
+              </h3>
+              <p className="text-gray-600 text-center" style={{ fontFamily: 'Inter' }}>
+                Candidates tested against mapped skill tags, not keyword fluff, ensuring accurate role-fit assessment
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Results & Badges System */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -152,7 +211,7 @@ const HowItWorks = () => {
               className="text-xl text-gray-600 max-w-2xl mx-auto"
               style={{ fontFamily: 'Inter' }}
             >
-              Our AI assigns performance-based badges that employers trust
+              Our AI assigns performance-based badges that employers trust. Badge levels reflect not only skill strength but also role-readiness for time-sensitive hiring. Employers can filter based on badge level and availability.
             </p>
           </div>
 
