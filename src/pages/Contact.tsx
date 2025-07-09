@@ -246,11 +246,11 @@ const Contact = () => {
                       Speak with our team directly
                     </p>
                     <a 
-                      href="tel:+1-555-VETRIA-AI" 
+                      href="tel:+918465922194" 
                       className="text-red-800 hover:text-red-900 font-medium"
                       style={{ fontFamily: 'Inter' }}
                     >
-                      +1 (555) VETRIA-AI
+                      +91 8465922194
                     </a>
                   </div>
                 </div>
@@ -264,12 +264,12 @@ const Contact = () => {
                       Visit Us
                     </h3>
                     <p className="text-gray-600 mb-2" style={{ fontFamily: 'Inter' }}>
-                      Our headquarters in San Francisco
+                      Our headquarters in Hyderabad, Telangana, India
                     </p>
                     <address className="text-gray-600 not-italic" style={{ fontFamily: 'Inter' }}>
-                      123 Innovation Drive<br />
-                      San Francisco, CA 94105<br />
-                      United States
+                      VetriaAI Headquarters<br />
+                      Hyderabad, Telangana<br />
+                      India
                     </address>
                   </div>
                 </div>
@@ -283,11 +283,11 @@ const Contact = () => {
                 <div className="space-y-2 text-gray-600" style={{ fontFamily: 'Inter' }}>
                   <div className="flex justify-between">
                     <span>Monday - Friday:</span>
-                    <span>9:00 AM - 6:00 PM PST</span>
+                    <span>9:00 AM - 6:00 PM IST</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Saturday:</span>
-                    <span>10:00 AM - 4:00 PM PST</span>
+                    <span>10:00 AM - 4:00 PM IST</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Sunday:</span>

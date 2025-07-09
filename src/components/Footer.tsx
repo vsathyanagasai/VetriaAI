@@ -21,11 +21,11 @@ const Footer = () => {
             <div className="flex items-center space-x-4 text-gray-400">
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4" />
-                <span style={{ fontFamily: 'Inter' }}>support@vetria.ai</span>
+                <span style={{ fontFamily: 'Inter' }}>sathya.vetriaai@gmail.com</span>
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4" />
-                <span style={{ fontFamily: 'Inter' }}>San Francisco, CA</span>
+                <span style={{ fontFamily: 'Inter' }}>Hyderabad, Telangana, India</span>
               </div>
             </div>
           </div>
