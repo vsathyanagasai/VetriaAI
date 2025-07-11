@@ -34,6 +34,7 @@ const About = () => {
     }
   ];
 
+<<<<<<< HEAD
   const milestones = [
     {
       year: "2025",
@@ -54,6 +55,55 @@ const About = () => {
       year: "2026",
       title: "Full Platform Launch (Planned)",
       description: "Targeting public launch with AI-matching engine, JD optimizer, candidate dashboards, and real-time hiring insights."
+=======
+  const team = [
+    {
+      name: "Alex Chen",
+      role: "CEO & Co-Founder",
+      background: "Former VP of Engineering at Google, PhD in Machine Learning from Stanford",
+      image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      name: "Sarah Martinez",
+      role: "CTO & Co-Founder",
+      background: "Ex-Meta AI Research, Expert in NLP and Computer Vision",
+      image: "https://images.pexels.com/photos/3783471/pexels-photo-3783471.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      name: "David Kim",
+      role: "Head of Product",
+      background: "Former LinkedIn Product Manager, 10+ years in HR Tech",
+      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      name: "Rachel Thompson",
+      role: "Head of AI Ethics",
+      background: "Former IBM Research, PhD in Ethics and AI from MIT",
+      image: "https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=400"
+    }
+  ];
+
+  const milestones = [
+    {
+      year: "2023",
+      title: "Company Founded",
+      description: "VetriaAI was born from a vision to democratize talent discovery"
+    },
+    {
+      year: "2024",
+      title: "AI Platform Launch",
+      description: "Released our first AI-powered resume screening and skill validation platform"
+    },
+    {
+      year: "2024",
+      title: "10,000+ Candidates",
+      description: "Reached our first major milestone with over 10,000 active candidates"
+    },
+    {
+      year: "2025",
+      title: "500+ Companies",
+      description: "Partnered with 500+ companies across various industries"
+>>>>>>> 14bc2fc2138e70042a052c367372c0f7c7db197b
     }
   ];
 
@@ -213,6 +263,7 @@ const About = () => {
               who are passionate about transforming recruitment.
             </p>
           </div>
+<<<<<<< HEAD
           <div className="flex flex-col lg:flex-row items-center lg:items-start gap-12">
             {/* Founder Image */}
             <div className="flex-shrink-0 w-full max-w-sm">
@@ -250,6 +301,30 @@ const About = () => {
                 My journey as a founder is grounded in passion for real-world impact, and VetriaAI is my commitment to reshape the future of work.
               </p>
             </div>
+=======
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {team.map((member, index) => (
+              <div key={index} className="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-md transition-shadow duration-200">
+                <img 
+                  src={member.image} 
+                  alt={member.name}
+                  className="w-full h-64 object-cover"
+                />
+                <div className="p-6">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2" style={{ fontFamily: 'Poppins' }}>
+                    {member.name}
+                  </h3>
+                  <p className="text-red-800 font-medium mb-3" style={{ fontFamily: 'Inter' }}>
+                    {member.role}
+                  </p>
+                  <p className="text-gray-600 text-sm" style={{ fontFamily: 'Inter' }}>
+                    {member.background}
+                  </p>
+                </div>
+              </div>
+            ))}
+>>>>>>> 14bc2fc2138e70042a052c367372c0f7c7db197b
           </div>
         </div>
       </section>
@@ -308,7 +383,11 @@ const About = () => {
               className="text-xl text-red-100 max-w-2xl mx-auto"
               style={{ fontFamily: 'Inter' }}
             >
+<<<<<<< HEAD
               We’re building VetriaAI to drive measurable improvements in how companies hire and how candidates get discovered.
+=======
+              Numbers that showcase our commitment to revolutionizing hiring
+>>>>>>> 14bc2fc2138e70042a052c367372c0f7c7db197b
             </p>
           </div>
 
@@ -318,7 +397,11 @@ const About = () => {
                 10,000+
               </div>
               <div className="text-red-100" style={{ fontFamily: 'Inter' }}>
+<<<<<<< HEAD
                 Skill-Verified Candidates Expected
+=======
+                Active Candidates
+>>>>>>> 14bc2fc2138e70042a052c367372c0f7c7db197b
               </div>
             </div>
             <div className="text-center">
@@ -326,15 +409,26 @@ const About = () => {
                 500+
               </div>
               <div className="text-red-100" style={{ fontFamily: 'Inter' }}>
+<<<<<<< HEAD
                 Recruiters & Hiring Teams Onboard
+=======
+                Partner Companies
+>>>>>>> 14bc2fc2138e70042a052c367372c0f7c7db197b
               </div>
             </div>
             <div className="text-center">
               <div className="text-4xl font-bold text-white mb-2" style={{ fontFamily: 'Poppins' }}>
+<<<<<<< HEAD
                 80%
               </div>
               <div className="text-red-100" style={{ fontFamily: 'Inter' }}>
                 Reduction in Time-to-Hire
+=======
+                1M+
+              </div>
+              <div className="text-red-100" style={{ fontFamily: 'Inter' }}>
+                Resumes Processed
+>>>>>>> 14bc2fc2138e70042a052c367372c0f7c7db197b
               </div>
             </div>
             <div className="text-center">
@@ -342,7 +436,11 @@ const About = () => {
                 95%
               </div>
               <div className="text-red-100" style={{ fontFamily: 'Inter' }}>
+<<<<<<< HEAD
                 Hiring Accuracy (Goal)
+=======
+                Success Rate
+>>>>>>> 14bc2fc2138e70042a052c367372c0f7c7db197b
               </div>
             </div>
           </div>
